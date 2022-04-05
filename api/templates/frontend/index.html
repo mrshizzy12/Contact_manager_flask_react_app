@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link href="{{ url_for('static', filename='fontawesome-free/css/all.css') }}" rel="stylesheet"/>
+    {{ bootstrap.load_css() }}
+</head>
+<body>
+    <div id="app"></div>
+    <script src="{{ url_for('static', filename='frontend/main.js') }}"></script>
+    {{ bootstrap.load_js() }}
+</body>
+</html>
